@@ -1,5 +1,5 @@
 # About
-## [Home](/)
+###### [Home](/)
 ## Who am I
 See [here](https://lqh2011.com)
 ## Email
