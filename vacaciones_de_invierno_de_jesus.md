@@ -10,7 +10,7 @@ Después, vamos al este a Zaragoza, donde pasaremos diez días estudiando en el 
 
 Aparte de eso, algo más que sí que me va a interesar son las tapas. O sea, la comida española. Hemos aprendido mucho sobre ellas y nos han enseñado cómo pedirlas en un bar auténtico. El profesor nos contó que la última vez, los estudiantes no tuvieron la oportunidad de probarlas - comían en restaurantes chinos casi todos los días. Qué pena. Espero que eso no ocurra este año. ¿No sería genial utilizar lo estudiado en la vida real?
 
-Sin embargo, este viaje también significa que tendré que dejar la mayoría de los cursillos a que me apuntaría. Me preocupo mucho al pensar en lo mucho que perderé. No te rías, sí hacen falta. Al mejor haya una grabación o algo parecido.
+Sin embargo, este viaje también significa que tendré que dejar la mayoría de los cursillos a los que me apuntaría. Me preocupo mucho al pensar en lo mucho que perderé. No te rías, sí hacen falta. Al mejor haya una grabación o algo parecido.
 
 En resumen, voy a aprender mucho este invierno. Sin duda este viaje será inolvidable para mí y también para mis amigos de escuela.
 
