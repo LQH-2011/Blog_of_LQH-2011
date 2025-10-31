@@ -22,6 +22,7 @@ En resumen, voy a aprender mucho este invierno. Sin duda este viaje será inolvi
 <style>
 * {font-family: Optima, sans-serif, serif;}
 p {line-height: 1.5;}
-h1, h5, h6 {text-align: center;}
+h5, h6 {text-align: center;}
 h6 {color: gray;}
+#vacaciones-de-invierno-de-jesús {text-align: center;}
 </style>
