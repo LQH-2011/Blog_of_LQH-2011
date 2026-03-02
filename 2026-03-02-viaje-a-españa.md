@@ -1,12 +1,3 @@
----
-layout: post
-title: "España - Mundo tranquilo nacido en la huerta de la historia"
-date: 2026-03-02 16:40:00 +0800
-categories: [Viajes]
-tags: [viajes, España]
-description: "Resumen de mi viaje en España"
-published: true
----
 #España - Mundo tranquilo nacido en la huerta de la historia
 
 ###Basado en experiencias originales durante mi estancia en el país
