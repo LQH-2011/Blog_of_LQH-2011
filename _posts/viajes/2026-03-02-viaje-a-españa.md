@@ -5,6 +5,7 @@ date: 2026-03-02 16:40:00 +0800
 categories: [Viajes]
 tags: [viajes, España]
 description: "Resumen de mi viaje en España"
+published: true
 ---
 España - Mundo tranquilo nacido en la huerta de la historia
 
@@ -30,4 +31,5 @@ El primer detalle era las numerosas librerías dispersadas por toda la ciudad. L
 Otro detalle era la comida. Los platos aragoneses estaban todos riquísimos, pero también llenaban rápido por la gran cantidad de carne que contenían. Quizá esta sea la razón por la que los españoles no engordan como los estadounidenses, aunque comparten muchas características en cuanto al estilo gastronómico.
 
 Cuando nuestro viaje llegó a su fin, no pude evitar a sentir melancólico que tenía que dejar este país tan amable. España, con toda su historia, me acompañará, escondida en
+
 un rincón tranquilo de mi corazón. Algún día, volveré.
