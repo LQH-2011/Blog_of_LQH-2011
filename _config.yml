@@ -22,13 +22,13 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 # Metadatos del Sitio
 title: "Blog de Jesús"
-description: "Reflexiones sobre ciencia, política y literatura de un chino que habla castellano."
+description: "Blog personal de un chino que habla castellano."
 lang: "es-ES"
 timezone: "Asia/Shanghai"
 # Datos del Autor
 author:
   name: "Jesús Luo"
-  bio: "Un chino que habla castellano. Investigador político e interesado en matemáticas, física y poesía."
+  bio: "Un chino que habla castellano."
   location: "Nanjing, China"
   url: "https://lqh2011.com"
 email: jesus@lqh2011.com
