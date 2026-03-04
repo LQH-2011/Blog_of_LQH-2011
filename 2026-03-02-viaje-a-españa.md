@@ -1,10 +1,3 @@
----
-layout: default
-title: España - Mundo tranquilo nacido en la huerta de la historia
-pagination: 
-  enabled: true
-  category: viajes
----
 # España - Mundo tranquilo nacido en la huerta de la historia
 
 ### *Basado completamente en experiencias originales durante mi estancia en el país*
