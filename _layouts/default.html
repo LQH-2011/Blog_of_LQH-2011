@@ -43,7 +43,6 @@
     <p class="g">
       <a href="{{ "/" | relative_url }}">{{ site.nav_icon | default: "Δ" }}</a>
       <span class="r">
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         [<a href="{{ "/feed.xml" | relative_url }}">RSS</a>]
       </span>
     </p>
@@ -58,6 +57,7 @@
   </article>
 
   <footer>
+    <p class="c"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p class="c">© {{ site.time | date: "%Y" }} {{ site.author.name }}, All Rights Reserved</p>
   </footer>
 </body>
