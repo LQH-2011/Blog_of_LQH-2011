@@ -7,6 +7,8 @@
   --muted: #666;
   --border: #e5e5e5;
   --code-bg: #f5f5f5;
+  --link: #1a5c2a;
+  --link-hover: #0e3d1a;
 }
 
 *, *::before, *::after {
@@ -74,14 +76,15 @@ nav {
 /* ── Links ── */
 
 a {
-  color: var(--black);
+  color: var(--link);
   text-decoration: none;
   border-bottom: 1px solid var(--border);
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, color 0.15s;
 }
 
 a:hover {
-  border-bottom-color: var(--black);
+  border-bottom-color: var(--link);
+  color: var(--link-hover);
 }
 
 nav a {
@@ -135,7 +138,7 @@ nav a {
 }
 
 .post-tags a:hover {
-  color: var(--black);
+  color: var(--link-hover);
 }
 
 /* ── All-tags bar (home) ── */
@@ -153,7 +156,7 @@ nav a {
 }
 
 .tag-bar a:hover {
-  color: var(--black);
+  color: var(--link-hover);
 }
 
 /* ── Post meta ── */
@@ -171,7 +174,7 @@ nav a {
 }
 
 .post-meta a:hover {
-  color: var(--black);
+  color: var(--link-hover);
 }
 
 /* ── Code ── */
