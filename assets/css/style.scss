@@ -37,30 +37,29 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
-h1, h2, h3, p, ul, ol, blockquote {
-  margin: 0 0 1.25rem;
-}
-
-h1 { font-size: 2rem; margin-top: 1.5rem; }
-h2 { font-size: 1.4rem; margin-top: 2.5rem; color: var(--black); }
-h3 { font-size: 1.15rem; margin-top: 2rem; }
-h4 { font-size: 1rem; margin-top: 1.5rem; }
+h1 { font-size: 2rem; margin: 1.5rem 0 1.25rem; }
+h2 { font-size: 1.4rem; margin: 2.5rem 0 1.25rem; }
+h3 { font-size: 1.15rem; margin: 2rem 0 1.25rem; }
+h4 { font-size: 1rem; margin: 1.5rem 0 1.25rem; }
+p, ul, ol { margin: 0 0 1.25rem; }
+blockquote { margin: 0 0 1.25rem; }
 
 /* ── Layout ── */
 
 article {
   flex: 1;
   padding: 0 0 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-article > *:not(pre):not(figure) {
-  max-width: var(--width);
-  width: 100%;
+nav,
+article > *:not(pre):not(figure),
+footer {
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+  max-width: var(--width);
+  width: 100%;
 }
 
 /* ── Navigation ── */
@@ -70,12 +69,6 @@ nav {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 2rem;
-  max-width: var(--width);
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  width: 100%;
 }
 
 /* ── Links ── */
@@ -100,7 +93,8 @@ nav a {
 .post-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
 }
 
 .post-item {
@@ -148,6 +142,7 @@ nav a {
 
 .tag-bar {
   font-size: 0.85rem;
+  margin-top: 0;
   margin-bottom: 2rem;
   color: var(--muted);
 }
@@ -166,6 +161,7 @@ nav a {
 .post-meta {
   font-size: 0.85rem;
   color: var(--muted);
+  margin-top: 0;
   margin-bottom: 0.25rem;
 }
 
@@ -210,8 +206,6 @@ pre > code {
 
 blockquote {
   border-left: 2px solid var(--border);
-  margin-left: 0;
-  margin-right: 0;
   padding: 0.25rem 0 0.25rem 1.25rem;
   color: var(--muted);
 }
@@ -268,12 +262,6 @@ footer {
   font-size: 0.8rem;
   color: var(--muted);
   text-align: center;
-  max-width: var(--width);
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  width: 100%;
 }
 
 /* ── Signature ── */
@@ -281,6 +269,7 @@ footer {
 .signoff {
   text-align: right;
   margin-top: 3rem;
+  margin-bottom: 0;
   color: var(--muted);
   font-style: italic;
 }
