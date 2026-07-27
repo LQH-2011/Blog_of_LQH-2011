@@ -1,38 +1,41 @@
-# Ajustes de URL y despliegue
+# URL and deployment
 url: "https://blog.lqh2011.com"
 baseurl: ""
-# Tema: Utilizando el repositorio oficial de temas de GitHub Pages
-remote_theme: pages-themes/minimal@v0.2.0
-# Plugins soportados nativamente por GitHub Pages
+
+# No remote theme — using custom local layouts
+# remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins supported natively by GitHub Pages
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-seo-tag   
-  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
-# Renderizado de Markdown (configurado para precisión académica/técnica)
+
+# Markdown rendering
 markdown: kramdown
 kramdown:
-  input: GFM        # GitHub Flavored Markdown
+  input: GFM
   hard_wrap: false
-  auto_ids: true    # Genera IDs para enlaces a secciones automáticos
-# Configuración de Paginación
-# Importante: Requiere que tu blog tenga un listado central que soporte esta lógica
-paginate: 5
-paginate_path: "/blog/page:num/"
-# Metadatos del Sitio
+  auto_ids: true
+
+# Site metadata
 title: "Blog de Jesús"
+tagline: "Blog personal de un chino que habla castellano."
 description: "Blog personal de un chino que habla castellano."
 lang: "es-ES"
 timezone: "Asia/Shanghai"
-# Datos del Autor
+
+# Author
 author:
   name: "Jesús Luo"
   bio: "Un chino que habla castellano."
   location: "Nanjing, China"
   url: "https://lqh2011.com"
+  signoff: "—Jesús"
+
 email: jesus@lqh2011.com
-# Redes Sociales (Compatibles con la mayoría de layouts SEO-Tag)
+
+# Social
 github_username: LQH-2011
 social_links:
   - name: Discord
@@ -40,4 +43,18 @@ social_links:
   - name: GitHub
     url: https://github.com/LQH-2011
 
+# Navigation
+nav_icon: "J"
+
+# Permalink style
 permalink: /:year/:month/:day/:title/
+
+# Default front matter for posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      disclaimer: "Estas son mis opiniones personales y no representan ninguna organización ni consejo profesional."

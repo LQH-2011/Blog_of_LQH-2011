@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ "/favicon.jpg" | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/favicon.jpg" | relative_url }}">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+  <meta name="application-name" content="{{ site.title }}">
+
+  {% if page.use_math or layout.use_math %}
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  {% endif %}
+
+  {% if page.custom_css %}
+  <style>{{ page.custom_css }}</style>
+  {% endif %}
+</head>
+<body>
+  <nav>
+    <p></p>
+    <p class="g">
+      <a href="{{ "/" | relative_url }}">{{ site.nav_icon | default: "Δ" }}</a>
+      <span class="r">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        [<a href="{{ "/feed.xml" | relative_url }}">RSS</a>]
+      </span>
+    </p>
+  </nav>
+
+  <article>
+    {% if page.disclaimer %}
+    <p><br><i>{{ page.disclaimer }}</i></p><br>
+    {% endif %}
+
+    {{ content }}
+  </article>
+
+  <footer>
+    <p class="c">© {{ site.time | date: "%Y" }} {{ site.author.name }}, All Rights Reserved</p>
+  </footer>
+</body>
+</html>
