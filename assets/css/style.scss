@@ -341,7 +341,11 @@ footer a {
   }
 
   .post-tags {
-    display: none;
+    width: 100%;
+    margin-left: 0;
+    white-space: normal;
+    font-size: 0.75rem;
+    margin-top: 0.15rem;
   }
 
   article {
