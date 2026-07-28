@@ -65,10 +65,13 @@ footer {
 /* ── Navigation ── */
 
 nav {
-  padding-top: 2rem;
-  padding-bottom: 1.5rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 /* ── Links ── */
@@ -85,11 +88,12 @@ a:hover {
 }
 
 nav a {
+  color: var(--muted);
   border-bottom: none;
 }
 
-nav a:first-child {
-  font-family: "Times New Roman", Times, Georgia, serif;
+nav a:hover {
+  color: var(--black);
 }
 
 /* ── Post listing (home) ── */

@@ -39,13 +39,13 @@
 </head>
 <body>
   <nav>
-    <p></p>
-    <p class="g">
-      <a href="{{ "/" | relative_url }}">{{ site.nav_icon | default: "Δ" }}</a>
-      <span class="r">
-        [<a href="{{ "/feed.xml" | relative_url }}">RSS</a>]
-      </span>
-    </p>
+    <a href="{{ "/" | relative_url }}">Home</a>
+    &bull;
+    <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+    &bull;
+    <a href="{{ "/tags" | relative_url }}">Tags</a>
+    &bull;
+    <a href="https://m14ga.org">M14GA</a>
   </nav>
 
   <article>

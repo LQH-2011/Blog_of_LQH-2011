@@ -43,9 +43,6 @@ social_links:
   - name: GitHub
     url: https://github.com/LQH-2011
 
-# Navigation
-nav_icon: "J"
-
 # Permalink style
 permalink: /:year/:month/:day/:title/
 
