@@ -302,16 +302,13 @@ footer a {
 @media (max-width: 600px) {
   body {
     font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   h1 { font-size: 1.6rem; }
   h2 { font-size: 1.25rem; }
   h3 { font-size: 1.1rem; }
-
-  nav, article > *:not(pre):not(figure), footer {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
 
   nav {
     padding-top: 1.25rem;
