@@ -64,7 +64,7 @@
     <p class="c">© {{ site.time | date: "%Y" }} {{ site.author.name }}, All Rights Reserved</p>
   </footer>
   <script>
-    (function u(){var d=document.getElementById('clock');if(!d)return;var t=new Date();d.textContent=String(t.getHours()).padStart(2,'0')+':'+String(t.getMinutes()).padStart(2,'0');setTimeout(u,1e3-d.getMilliseconds())})();
+    (function u(){var d=document.getElementById('clock');if(!d)return;var t=new Date();d.textContent=String(t.getHours()).padStart(2,'0')+':'+String(t.getMinutes()).padStart(2,'0')+':'+String(t.getSeconds()).padStart(2,'0');setTimeout(u,1e3-t.getMilliseconds())})();
   </script>
 </body>
 </html>
