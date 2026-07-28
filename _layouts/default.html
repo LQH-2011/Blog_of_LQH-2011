@@ -39,13 +39,16 @@
 </head>
 <body>
   <nav>
-    <a href="{{ "/" | relative_url }}">Home</a>
-    &bull;
-    <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
-    &bull;
-    <a href="{{ "/tags" | relative_url }}">Tags</a>
-    &bull;
-    <a href="https://m14ga.org">M14GA</a>
+    <span>
+      <a href="{{ "/" | relative_url }}">Home</a>
+      &bull;
+      <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+      &bull;
+      <a href="{{ "/tags" | relative_url }}">Tags</a>
+      &bull;
+      <a href="https://m14ga.org">M14GA</a>
+    </span>
+    <span class="clock" id="clock"></span>
   </nav>
 
   <article>
@@ -60,5 +63,8 @@
     <p class="c"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p class="c">© {{ site.time | date: "%Y" }} {{ site.author.name }}, All Rights Reserved</p>
   </footer>
+  <script>
+    (function u(){var d=document.getElementById('clock');if(!d)return;var t=new Date();d.textContent=String(t.getHours()).padStart(2,'0')+':'+String(t.getMinutes()).padStart(2,'0');setTimeout(u,1e3-d.getMilliseconds())})();
+  </script>
 </body>
 </html>

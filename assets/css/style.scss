@@ -65,13 +65,20 @@ footer {
 /* ── Navigation ── */
 
 nav {
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   padding-top: 1.5rem;
   padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 2rem;
   font-size: 0.9rem;
   color: var(--muted);
+}
+
+.clock {
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
 }
 
 /* ── Links ── */
