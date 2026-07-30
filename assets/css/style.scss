@@ -27,6 +27,8 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* ── Typography ── */
@@ -302,8 +304,6 @@ footer a {
 @media (max-width: 600px) {
   body {
     font-size: 16px;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   h1 { font-size: 1.6rem; }
