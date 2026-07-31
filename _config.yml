@@ -54,4 +54,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      disclaimer: "Estas son mis opiniones personales y no representan ninguna organización ni consejo profesional."
+      disclaimer: "These are my personal opinions and do not represent any organization or professional advice."
