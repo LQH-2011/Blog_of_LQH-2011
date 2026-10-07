@@ -7,7 +7,7 @@ tags:
   - vida
 ---
 
-##### *Escrito por [Jesús](https://lqh2011.com/tools/)*
+##### *Escrito por [Jesús](https://blog.lqh2011.com)*
 ***
 
 Las vacaciones de invierno de este año van a ser muy diferentes para mí y mis compañeros del grupo de español. Escucha y te digo por qué.  

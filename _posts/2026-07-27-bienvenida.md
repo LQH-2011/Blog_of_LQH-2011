@@ -5,6 +5,6 @@ tags:
   - meta
 ---
 
-Este es mi blog. No lo he completado todavía. ¡Ve a [lqh2011.com/tools](https://lqh2011.com/tools/) para ver mis actividades!
+Este es mi blog. No lo he completado todavía. ¡Ve a [blog.lqh2011.com](https://blog.lqh2011.com) para ver mis actividades!
 
 Este sitio utiliza [GitHub Pages](https://pages.github.com) como *hosting*.
