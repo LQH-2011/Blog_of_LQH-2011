@@ -13,7 +13,7 @@ permalink: /feed.xml
     {% for post in site.posts limit:20 %}
     <item>
       <title>{{ post.title | escape }}</title>
-      <description>{{ post.content | strip_html | truncatewords: 50 | escape }}</description>
+      <description>{{ post.content | xml_escape }}</description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
